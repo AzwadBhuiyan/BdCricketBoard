@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="606.0" prefWidth="741.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="Admin.ViewAllUsersController">
+   <children>
+      <TableView fx:id="usersTable" layoutX="61.0" layoutY="81.0" prefHeight="383.0" prefWidth="620.0">
+        <columns>
+          <TableColumn fx:id="idCol" minWidth="155.0" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="nameCol" minWidth="155.0" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="typeCol" minWidth="155.0" prefWidth="75.0" text="Type" />
+            <TableColumn fx:id="salaryCol" minWidth="155.0" prefWidth="75.0" text="Salary" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="227.0" layoutY="14.0" prefHeight="60.0" prefWidth="286.0" text="All Users" textFill="#6000e8">
+         <font>
+            <Font name="Consolas Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="567.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="25.0" prefWidth="66.0" text="Back" />
+   </children>
+</AnchorPane>

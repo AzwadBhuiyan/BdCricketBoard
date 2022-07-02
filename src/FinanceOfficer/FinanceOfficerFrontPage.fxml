@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FinanceOfficer.FinanceOfficerFrontPageController">
+   <children>
+      <Button alignment="CENTER" layoutX="264.0" layoutY="90.0" mnemonicParsing="false" onAction="#changePaymentMethodOnClick" text="Change Payment Method" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <Button alignment="CENTER" layoutX="150.0" layoutY="202.0" mnemonicParsing="false" onAction="#createMonthlyBudgetOnClick" text="Create Monthly Budget" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <Button alignment="CENTER" layoutX="150.0" layoutY="254.0" mnemonicParsing="false" onAction="#changePasswordOnClick" text="Change Password" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <Button alignment="CENTER" layoutX="150.0" layoutY="307.0" mnemonicParsing="false" onAction="#logOutOnClick" text="Log out" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <Label alignment="CENTER" layoutX="150.0" layoutY="14.0" text="Finance Officer" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="150.0" layoutY="149.0" mnemonicParsing="false" onAction="#viewBudgetOnClick" prefHeight="25.0" prefWidth="300.0" text="View Budget" />
+   </children>
+</AnchorPane>

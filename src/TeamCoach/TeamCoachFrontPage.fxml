@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="411.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TeamCoach.TeamCoachFrontPageController">
+   <children>
+      <Button alignment="CENTER" layoutX="156.0" layoutY="88.0" mnemonicParsing="false" onAction="#trackPlayerRecordsOnClick" text="Track Player Records" AnchorPane.leftAnchor="156.0" AnchorPane.rightAnchor="144.0" />
+      <Button alignment="CENTER" layoutX="150.0" layoutY="146.0" mnemonicParsing="false" onAction="#viewApplicationsOnClick" text="View Applications" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <Button alignment="CENTER" layoutX="150.0" layoutY="212.0" mnemonicParsing="false" onAction="#changePaymentMethodOnClick" text="Change Payment Method" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <Button alignment="CENTER" layoutX="150.0" layoutY="275.0" mnemonicParsing="false" onAction="#changePasswordOnClick" text="Change Password" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <Button alignment="CENTER" layoutX="150.0" layoutY="330.0" mnemonicParsing="false" onAction="#logOutOnClick" text="Log out" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
+      <Label alignment="CENTER" layoutX="295.0" layoutY="38.0" text="Team Coach" textAlignment="CENTER" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

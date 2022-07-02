@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="595.0" prefWidth="745.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="Admin.DeleteAdvertisementController">
+   <children>
+      <Label alignment="CENTER" layoutX="192.0" layoutY="14.0" prefHeight="60.0" prefWidth="362.0" text="Delete Advertisement" textFill="#6858f2">
+         <font>
+            <Font name="Consolas Bold Italic" size="31.0" />
+         </font>
+      </Label>
+      <TableView fx:id="paymentStatusTable" layoutX="82.0" layoutY="80.0" prefHeight="339.0" prefWidth="582.0">
+         <columns>
+            <TableColumn fx:id="sponserID" prefWidth="108.0" text="Sponsor ID" />
+            <TableColumn fx:id="sponserName" minWidth="178.0" prefWidth="192.0" text="Advertisement Name" />
+            <TableColumn fx:id="advertisementType" minWidth="120.0" prefWidth="149.0" text="Advertisement Type" />
+            <TableColumn fx:id="paymentStatus" minWidth="132.0" prefWidth="132.0" text="Payment Status" />
+         </columns>
+      </TableView>
+      <Button layoutX="14.0" layoutY="556.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="25.0" prefWidth="66.0" text="Back" />
+      <Button layoutX="331.0" layoutY="443.0" mnemonicParsing="false" onAction="#deleteOnClick" prefHeight="33.0" prefWidth="83.0" text="Delete" />
+      <Label fx:id="confirmation" layoutX="320.0" layoutY="498.0" prefHeight="33.0" prefWidth="106.0" />
+   </children>
+</AnchorPane>

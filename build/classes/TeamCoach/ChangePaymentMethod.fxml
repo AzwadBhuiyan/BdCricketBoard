@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="459.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TeamCoach.ChangePaymentMethodController">
+   <children>
+      <Button layoutX="14.0" layoutY="420.0" mnemonicParsing="false" onAction="#backBtnOnClick" prefHeight="25.0" prefWidth="56.0" text="Back" />
+      <Label layoutX="157.0" layoutY="21.0" text="Change Payment Method">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="banksCombo" layoutX="226.0" layoutY="163.0" prefWidth="150.0" promptText="Select Bank" />
+      <TextField fx:id="accName" layoutX="182.0" layoutY="213.0" prefHeight="25.0" prefWidth="232.0" promptText="Account Name" />
+      <TextField fx:id="accNo" layoutX="186.0" layoutY="276.0" prefHeight="25.0" prefWidth="232.0" promptText="Account No." />
+      <Button layoutX="262.0" layoutY="317.0" mnemonicParsing="false" onAction="#saveBtnOnClick" prefHeight="35.0" prefWidth="73.0" text="Save" />
+      <Label fx:id="currentPayment" alignment="TOP_CENTER" layoutX="111.0" layoutY="67.0" prefHeight="72.0" prefWidth="383.0" />
+      <Label fx:id="confirm" layoutX="168.0" layoutY="363.0" prefHeight="35.0" prefWidth="269.0" />
+   </children>
+</AnchorPane>

@@ -1,2 +1,2 @@
 # BdCricketBoard
- Simulation of Banladesh Cricket Board
+ Simulation of Bangladesh Cricket board using Java
